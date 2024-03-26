@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    border: 4px solid #ffffff;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    border: 4px solid pink;
+}
+
+input::placeholder {
+    color: #c7cdce;
+}
+
+input:focus::placeholder {
+    color: #7f8c8d;
+}
+textarea {
+    border: 4px solid #ffffff;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    border: 4px solid pink;
+}
+
+textarea::placeholder {
+    color: #c7cdce;
+}
+
+textarea:focus::placeholder {
+    color: #7f8c8d;
+}
